@@ -169,9 +169,9 @@ main h2 {
   text-align: center;
 }
 
-@media (max-width: 320px) {
-  main h1 {
-    text-align: center;
+@media screen and (max-width: 600px) {
+  :root {
+    --header-height: 64px;
   }
 }
 footer {
